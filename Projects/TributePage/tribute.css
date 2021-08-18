@@ -1,8 +1,7 @@
 html {
-  /* Setting a base font size of 10px give us easier rem calculations
-     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
-   */
-  font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+
 }
 
 body {
@@ -16,14 +15,17 @@ body {
 #img-div {
     max-width: 100%;
     background-color: yellow;
-  align-items: center;
+    display: block;
 }
 
+
 #image {
-  margin-top: 2px;
-  display: block;
+display: block;
   height: auto;
-  max-width: none;
+  max-width: 40%;
+  margin: 40px 20px;
+   margin-left: auto;
+    margin-right: auto
 }
 
 h1 {
