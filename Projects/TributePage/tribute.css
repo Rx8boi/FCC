@@ -18,3 +18,18 @@ body {
     background-color: yellow;
   align-items: center;
 }
+
+#image {
+  margin-top: 2px;
+  display: block;
+  height: auto;
+  max-width: none;
+}
+
+h1 {
+  background-color: red;
+}
+
+#tribute-link {
+  background-color: green;
+}
